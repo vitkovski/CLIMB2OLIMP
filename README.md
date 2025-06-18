@@ -5,14 +5,14 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-0.4.3+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-> **CLIMB2OLIMP** to kompleksowy system oparty na sztucznej inteligencji do oceny gotowości organizacyjnej na transformację AI, opracowany jako kod uzupełniający do badań naukowych nad wieloagentowymi systemami AI w analizie organizacyjnej.
+> **CLIMB2OLIMP** to kompleksowy system oparty na sztucznej inteligencji do oceny gotowości organizacyjnej na transformację GenAI, opracowany jako kod uzupełniający do badań naukowych nad wieloagentowymi systemami AI w analizie organizacyjnej.
 
 ## 🎯 Przegląd
 
 Repozytorium zawiera kompletną implementację wieloetapowej platformy oceny gotowości organizacji do wdrozeń systemów AI, która łączy dwie komplementarne metodologie:
 
-- **CLIMB2** (Collaborative Innovation and Leadership Maturity): Podstawowa ocena dojrzałości organizacyjnej
-- **OLIMP** (Organizational Level Intelligence & Maturity Platform): Zaawansowana analiza luk i rekomendacje strategiczne oparte na AI
+- **CLIMB2**: Podstawowa ocena dojrzałości organizacyjnej w rozwoju nowych produktów
+- **OLIMP**: Zaawansowana ocena dojrzałości organizacyjnej w wykorzystaniu GenAI w zarządzaniu produktem, analiza luk i rekomendacje strategiczne oparte na AI
 
 System demonstruje praktyczne zastosowanie wieloagentowych architektur AI w doradztwie organizacyjnym, wykorzystując przetwarzanie równoległe przez wiele dużych modeli językowych do generowania rekomendacji strategicznych opartych na konsensusie.
 
@@ -57,13 +57,13 @@ graph TD
 
 ## 🚀 Przepływ Badawczy
 
-### Etap 1: Ocena Podstawowa (CLIMB2)
+### Etap 1: Ocena Dojrzałości w rozwoju nowych produktów (CLIMB2)
 - **Ocena Dojrzałości Organizacyjnej**: 8 kluczowych kategorii obejmujących współpracę, szkolenia, procesy i technologię
 - **Punktacja Ilościowa**: Ocena poziomowa (skala A-E) w wielu wymiarach
 - **Identyfikacja Luk**: Systematyczna analiza stanu obecnego vs. docelowego
 
-### Etap 2: Ocena Gotowości na AI (OLIMP)
-- **Gotowość na Generatywną AI**: Specyficzna ocena zdolności transformacji AI
+### Etap 2: Ocena Dojrzałości w wykorzystaniu GenAI (OLIMP)
+- **Dojrzałość w wykorzystaniu Generatywnej AI**: Specyficzna ocena zdolności transformacji GenAI
 - **Ustalanie Priorytetów Strategicznych**: Wybór obszarów fokusowych kierowany przez użytkownika
 - **Analiza Multimodalna**: Integracja danych kwestionariusza z kontekstem organizacyjnym
 
@@ -123,8 +123,8 @@ CLIMB2OLIMP/
 ## 🔄 Przepływ Danych
 
 ### Przetwarzanie Wejściowe
-1. **Kwestionariusze Użytkownika**: Ocena organizacyjna CLIMB2 (8 kategorii, 40+ pytań)
-2. **Ocena OLIMP**: Kwestionariusz gotowości na AI z wyborem priorytetów
+1. **Ocena CLIMB2**: Ocena dojrzałości w rozwoju nowych produktów CLIMB2
+2. **Ocena OLIMP**: Kwestionariusz dojrzałości w wykorzystaniu GenAI z wyborem priorytetów
 3. **Kontekst Strategiczny**: Obszary fokusowe i cele organizacyjne zdefiniowane przez użytkownika
 
 ### Pipeline Przetwarzania AI
@@ -143,7 +143,7 @@ CLIMB2OLIMP/
 ## 🎯 Zastosowania Badawcze
 
 ### Nauki Organizacyjne
-- **Studia Transformacji Cyfrowej**: Ilościowa ocena gotowości na AI
+- **Studia Transformacji Cyfrowej**: Ilościowa ocena dojrzałości w wykorzystaniu GenAI
 - **Badania Zarządzania Zmianą**: Systematyczne podejście do ewolucji organizacyjnej
 - **Walidacja Modeli Dojrzałości**: Empiryczne testowanie ram oceny
 
@@ -378,8 +378,8 @@ uv run python main.py
 ## 📚 Bibliografia
 
 - **Framework LangGraph**: https://langchain-ai.github.io/langgraph/
-- **Metodologia CLIMB2**: Ocena Dojrzałości Współpracy, Innowacji i Przywództwa
-- **Framework OLIMP**: Platforma Inteligencji i Dojrzałości Organizacyjnej
+- **Model CLIMB2**: Ocena Dojrzałości w Rozwoju Nowych Produktów
+- **Model OLIMP**: Ocena Dojrzałości w Wykorzystaniu Rozwiązań Generatywnej AI + Rekomendacje Dla Organizacji
 - **Systemy Wieloagentowe**: Rozproszona AI dla Rozwiązywania Złożonych Problemów
 
 ## 📄 Licencja
