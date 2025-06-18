@@ -7,6 +7,8 @@
 
 > **CLIMB2OLIMP** to kompleksowy system oparty na sztucznej inteligencji do oceny gotowości organizacyjnej na transformację GenAI, opracowany jako kod uzupełniający do badań naukowych nad wieloagentowymi systemami AI w analizie organizacyjnej.
 
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/DVFUWCb0nF29igt90x" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/DVFUWCb0nF29igt90x">via GIPHY</a></p>
+
 ## 🎯 Przegląd
 
 Repozytorium zawiera kompletną implementację wieloetapowej platformy oceny gotowości organizacji do wdrozeń systemów AI, która łączy dwie komplementarne metodologie:
