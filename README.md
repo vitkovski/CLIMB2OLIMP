@@ -1,20 +1,20 @@
-# CLIMB2OLIMP: System Oceny Transformacji Organizacyjnej Oparty na AI
+# CLIMB2OLIMP: Model Oceny Dojrzałości w Wykorzystaniu Generatywnej AI w Procesie Rozwoju Nowego Produktu Oparty na AI
 
 ![Python](https://img.shields.io/badge/python-3.13+-blue.svg)
 ![Next.js](https://img.shields.io/badge/Next.js-15.2+-black.svg)
 ![LangGraph](https://img.shields.io/badge/LangGraph-0.4.3+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-> **CLIMB2OLIMP** to kompleksowy system oparty na sztucznej inteligencji do oceny gotowości organizacyjnej na transformację GenAI, opracowany jako kod uzupełniający do badań naukowych nad wieloagentowymi systemami AI w analizie organizacyjnej.
+> **CLIMB2OLIMP** to kompleksowy system oparty na sztucznej inteligencji do oceny dojrzałości organizacji w wykorzystaniu rozwiązań generatywnej sztucznej inteligencji w procesie rozwoju nowego produktu, opracowany jako kod uzupełniający do badań naukowych nad wieloagentowymi systemami AI w analizie organizacyjnej.
 
 ![Transformacja GenAI](./images/CLIMB2OLIMP_ShorterVideo_GitHub.gif)
 
 ## 🎯 Przegląd
 
-Repozytorium zawiera kompletną implementację wieloetapowej platformy oceny gotowości organizacji do wdrozeń systemów AI, która łączy dwie komplementarne metodologie:
+Repozytorium zawiera kompletną implementację wieloetapowej platformy oceny dojrzałości organizacji w wykorzystaniu rozwiązań GenAI, która łączy dwie komplementarne metodologie:
 
-- **CLIMB2**: Podstawowa ocena dojrzałości organizacyjnej w rozwoju nowych produktów
-- **OLIMP**: Zaawansowana ocena dojrzałości organizacyjnej w wykorzystaniu GenAI w zarządzaniu produktem, analiza luk i rekomendacje strategiczne oparte na AI
+- **CLIMB2**: Podstawowa ocena dojrzałości organizacyjnej w procesie rozwoju nowego produktu
+- **OLIMP**: Zaawansowana ocena dojrzałości organizacyjnej w wykorzystaniu GenAI w procesie rozwoju nowego produktu, analiza luk i rekomendacje strategiczne oparte na AI
 
 System demonstruje praktyczne zastosowanie wieloagentowych architektur AI w doradztwie organizacyjnym, wykorzystując przetwarzanie równoległe przez wiele dużych modeli językowych do generowania rekomendacji strategicznych opartych na konsensusie.
 
@@ -59,15 +59,15 @@ graph TD
 
 ## 🚀 Przepływ Badawczy
 
-### Etap 1: Ocena Dojrzałości w rozwoju nowych produktów (CLIMB2)
+### Etap 1: Ocena Dojrzałości w procesie rozwoju nowego produktu (CLIMB2)
 - **Ocena Dojrzałości Organizacyjnej**: 8 kluczowych kategorii obejmujących współpracę, szkolenia, procesy i technologię
 - **Punktacja Ilościowa**: Ocena poziomowa (skala A-E) w wielu wymiarach
-- **Identyfikacja Luk**: Systematyczna analiza stanu obecnego vs. docelowego
 
-### Etap 2: Ocena Dojrzałości w wykorzystaniu GenAI (OLIMP)
+
+### Etap 2: Ocena Dojrzałości w wykorzystaniu GenAI w procesie rozwoju nowego produktu(OLIMP)
 - **Dojrzałość w wykorzystaniu Generatywnej AI**: Specyficzna ocena zdolności transformacji GenAI
 - **Ustalanie Priorytetów Strategicznych**: Wybór obszarów fokusowych kierowany przez użytkownika
-- **Analiza Multimodalna**: Integracja danych kwestionariusza z kontekstem organizacyjnym
+- **Identyfikacja Luk**: Systematyczna analiza stanu obecnego vs. docelowego
 
 ### Etap 3: Wieloagentowa Analiza Strategiczna
 - **Przetwarzanie Równoległe**: Trzy niezależne gałęzie AI analizują dane organizacyjne
@@ -75,7 +75,7 @@ graph TD
 - **Generowanie Konsensusu**: Zaawansowane inżynieria promptów do syntezy rekomendacji
 
 ### Etap 4: Rekomendacje Strategiczne
-- **Kompleksowe Raporty**: 400-500 liniowe dokumenty strategiczne z budżetami i harmonogramami
+- **Kompleksowe Raporty**: Obszerne dokumenty strategiczne z budżetami i harmonogramami
 - **Mapy Drogowe Wdrożenia**: Fazowe plany transformacji z KPI
 - **Ocena Ryzyka**: Identyfikacja potencjalnych wyzwań i strategii mitygacji
 
@@ -125,8 +125,8 @@ CLIMB2OLIMP/
 ## 🔄 Przepływ Danych
 
 ### Przetwarzanie Wejściowe
-1. **Ocena CLIMB2**: Ocena dojrzałości w rozwoju nowych produktów CLIMB2
-2. **Ocena OLIMP**: Kwestionariusz dojrzałości w wykorzystaniu GenAI z wyborem priorytetów
+1. **Ocena CLIMB2**: Ocena dojrzałości w rozwoju nowego produktu CLIMB2
+2. **Ocena OLIMP**: Ocena dojrzałości w wykorzystaniu GenAI z wyborem priorytetów
 3. **Kontekst Strategiczny**: Obszary fokusowe i cele organizacyjne zdefiniowane przez użytkownika
 
 ### Pipeline Przetwarzania AI
@@ -380,8 +380,8 @@ uv run python main.py
 ## 📚 Bibliografia
 
 - **Framework LangGraph**: https://langchain-ai.github.io/langgraph/
-- **Model CLIMB2**: Ocena Dojrzałości w Rozwoju Nowych Produktów
-- **Model OLIMP**: Ocena Dojrzałości w Wykorzystaniu Rozwiązań Generatywnej AI + Rekomendacje Dla Organizacji
+- **Model CLIMB2**: Ocena Dojrzałości w Procesie Rozwoju Nowego Produktu
+- **Model OLIMP**: Ocena Dojrzałości w Wykorzystaniu Rozwiązań Generatywnej AI w Procesie Rozwoju Nowego Produktu + Rekomendacje Dla Organizacji
 - **Systemy Wieloagentowe**: Rozproszona AI dla Rozwiązywania Złożonych Problemów
 
 ## 📄 Licencja
